@@ -2,9 +2,9 @@ import random
 
 #HYPERPARAMETERS - FEEL FREE TO TWEAK
 
-DEBUG_STATEMENTS = True # feel free to change this to True and TRIALS to 1 to run a single simulation.
+DEBUG_STATEMENTS = False # feel free to change this to True and TRIALS to 1 to run a single simulation.
 
-TRIALS = 1 # number of trials to run. the higher the number, the more accurate the simulation, but runs for longer.
+TRIALS = 1000000 # number of trials to run. the higher the number, the more accurate the simulation, but runs for longer.
 
 NUM_OF_STEPS = 10 # 12k gems spent is five steps, for each over step you spend 3k more.
 # 10 steps is 27k gems, the same amount as 11-step on an arcana banner.
